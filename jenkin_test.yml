@@ -1,0 +1,8 @@
+---
+- name: Test Jenkins
+  hosts: client
+  tasks:
+  - name: To install screen
+    yum:
+      name: screen
+      state: present
